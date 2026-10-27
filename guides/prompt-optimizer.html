@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prompt optimizer: how to optimize a prompt in five checks | PromptMaster</title>
+  <meta name="description" content="A prompt optimizer finds what a model would have to guess and fills it in. Use these five checks on any ChatGPT, Claude, or Gemini prompt, with a before and after example." />
+  <link rel="stylesheet" href="../guides/guide.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does a prompt optimizer do?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A prompt optimizer reads a prompt you already wrote, finds what the AI model would have to guess, such as who the answer is for, the format, or the length, and rewrites the prompt with those details filled in." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I optimize a prompt for ChatGPT?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Check five things: give the model a role, state the task in one sentence, say who the result is for, describe the output format, and set limits such as length and what to leave out. Then ask the model to ask one question if something essential is missing." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is a prompt optimizer the same as a prompt generator?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. A prompt generator writes a new prompt from a topic. A prompt optimizer starts from the prompt you wrote and improves it, so your intent and wording stay." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does an optimized prompt work in Claude and Gemini too?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Role, task, audience, format, and limits help every chat model. PromptMaster can open the rewrite in ChatGPT or Claude, or copy it for Gemini." }
+      }
+    ]
+  }
+  </script>
+  <link rel="canonical" href="https://promptmasterapp.com/guides/prompt-optimizer.html" />
+</head>
+<body>
+  <header>
+    <a class="brand" href="../">PromptMaster</a>
+    <nav class="crumbs"><a href="../guides/">Guides</a> / Prompt optimizer</nav>
+    <h1>Prompt optimizer: how to optimize a prompt in five checks</h1>
+    <p class="lead">A prompt optimizer finds what the model would have to guess and fills it in. You can run the same five checks yourself on any prompt for ChatGPT, Claude, or Gemini.</p>
+  </header>
+  <main>
+    <h2>What a prompt optimizer does</h2>
+    <p>Most weak answers come from short prompts, not weak models. "Write a blog post about saving money" leaves the model to guess the reader, the length, the tone, and the shape. It guesses the most generic option for each. An optimizer keeps your task and adds the missing details, so the first answer is closer to what you wanted.</p>
+
+    <h2>The five checks</h2>
+    <ol>
+      <li><strong>Role.</strong> Who should the model act as? "You are a personal finance writer" sets vocabulary and depth.</li>
+      <li><strong>Task.</strong> One clear sentence about the job: write, fix, summarize, compare, plan.</li>
+      <li><strong>Reader.</strong> Who is the result for? A beginner, a hiring manager, a customer, a ten-year-old.</li>
+      <li><strong>Format.</strong> A list, an email, a table, three options, code with comments. Say the shape you want back.</li>
+      <li><strong>Limits.</strong> Length, scope, and what to leave out. "About 600 words. No generic tips like 'make a budget'."</li>
+    </ol>
+    <p>One more line helps almost every prompt: <em>"If something essential is missing, ask me one question before you start."</em> The model asks instead of inventing.</p>
+
+    <h2>Before and after</h2>
+    <div class="card">
+      <p><strong>Before</strong></p>
+      <p>Write a blog post about saving money.</p>
+    </div>
+    <div class="card">
+      <p><strong>After</strong></p>
+      <p>You are a personal finance writer. Write a blog post about saving money for people in their twenties who are new to budgeting. Use a short intro, five specific tips with a real example each, and a one-line takeaway. Keep it around 600 words, friendly but direct. Leave out generic advice like "make a budget". If something essential is missing, ask me one question before you start.</p>
+    </div>
+
+    <h2>How PromptMaster optimizes a prompt</h2>
+    <p>Paste the prompt you were about to send. PromptMaster grades it, and Quill's notes name what is missing from the five checks. Pro unlocks the rewrite and can open it in ChatGPT or Claude with the text filled in, or copy it for Gemini. The first grades are free and need no API key.</p>
+
+    <h2>Questions</h2>
+    <h3>Is a prompt optimizer the same as a prompt generator?</h3>
+    <p>No. A generator writes a new prompt from a topic. An optimizer starts from your prompt and improves it, so your intent stays. <a href="../guides/prompt-generator-vs-optimizer.html">More on the difference</a>.</p>
+    <h3>Does an optimized prompt work in Claude and Gemini too?</h3>
+    <p>Yes. The five checks help every chat model, not just ChatGPT.</p>
+    <h3>How long should a prompt be?</h3>
+    <p>Long enough to answer the five checks, which is usually three to six sentences. Longer is fine when you paste source material for the model to use.</p>
+
+    <p><a href="../guides/chatgpt-prompt-examples.html">ChatGPT prompt examples, before and after</a> · <a href="../guides/how-to-grade-a-prompt.html">How to grade a prompt</a> · <a href="../guides/send-prompt-to-chatgpt.html">Send a prompt to ChatGPT, Claude, or Gemini</a></p>
+  </main>
+  <footer>
+    <p>PromptMaster for Android. <a href="https://play.google.com/store/apps/details?id=com.promptmaster.ai&amp;referrer=utm_source%3Dwebsite%26utm_medium%3Dguide-optimizer">Get it on Google Play</a>.</p>
+  </footer>
+</body>
+</html>

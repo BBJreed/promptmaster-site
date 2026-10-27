@@ -3,26 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PromptMaster | Grade a prompt and get the rewrite</title>
-  <meta name="description" content="Paste a rough prompt. PromptMaster scores it, names what is missing, and writes a stronger version you can send to ChatGPT, Claude, or Gemini. Free on Android." />
+  <title>PromptMaster: Prompt Optimizer and Grader for ChatGPT, Claude, and Gemini</title>
+  <meta name="description" content="PromptMaster is a prompt optimizer for Android. Paste a rough prompt, get a score and what is missing, then a rewrite you can send to ChatGPT, Claude, or Gemini. Free to start." />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="PromptMaster | Grade a prompt and get the rewrite" />
+  <meta property="og:title" content="PromptMaster: Prompt Optimizer and Grader" />
   <meta property="og:description" content="Paste a rough prompt. Get a score, the gaps, and a rewrite for ChatGPT, Claude, or Gemini." />
-  <meta property="og:image" content="https://promptmasterapp.com/brand/icon-512.png" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="https://promptmasterapp.com/brand/share.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" href="./brand/favicon.png" />
   <link rel="stylesheet" href="./guides/guide.css" />
   <link rel="stylesheet" href="./home.css" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "PromptMaster",
-    "operatingSystem": "Android",
-    "applicationCategory": "ProductivityApplication",
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-    "description": "Grade a rough prompt, see what is missing, and get a rewrite for ChatGPT, Claude, or Gemini.",
-    "installUrl": "https://play.google.com/store/apps/details?id=com.promptmaster.ai"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://promptmasterapp.com/#org",
+        "name": "Reed Legacy Group, LLC",
+        "brand": "ReedAI",
+        "email": "jreed3727@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Bossier City", "addressRegion": "LA", "addressCountry": "US" }
+      },
+      {
+        "@type": "MobileApplication",
+        "name": "PromptMaster",
+        "alternateName": "PromptMaster: Prompt Optimizer",
+        "operatingSystem": "Android",
+        "applicationCategory": "ProductivityApplication",
+        "description": "Prompt optimizer and grader. Paste a rough prompt, get a score and what is missing, then a rewrite for ChatGPT, Claude, or Gemini.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "installUrl": "https://play.google.com/store/apps/details?id=com.promptmaster.ai",
+        "sameAs": ["https://play.google.com/store/apps/details?id=com.promptmaster.ai"],
+        "image": "https://promptmasterapp.com/brand/icon-512.png",
+        "publisher": { "@id": "https://promptmasterapp.com/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is PromptMaster?", "acceptedAnswer": { "@type": "Answer", "text": "PromptMaster is an Android prompt optimizer and grader. You paste a prompt you wrote, it scores it and names what is missing, and Pro writes an improved version you can send to ChatGPT, Claude, or Gemini." } },
+          { "@type": "Question", "name": "Is PromptMaster free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is free to install. The first five grades are free, with more after a short ad. Pro unlocks the rewrite, sending, unlimited grades, and no ads. Google Play shows the price before you pay." } },
+          { "@type": "Question", "name": "Do I need an API key?", "acceptedAnswer": { "@type": "Answer", "text": "No. Grading works without an API key. You can add your own Google Gemini key if you want Gemini to do the grading; it stays on your phone." } },
+          { "@type": "Question", "name": "Does PromptMaster work with ChatGPT, Claude, and Gemini?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ChatGPT and Claude open with the rewrite filled in. Gemini does not accept a prefilled link, so PromptMaster copies the rewrite and opens Gemini. The share sheet covers any other app." } }
+        ]
+      }
+    ]
   }
   </script>
   <link rel="canonical" href="https://promptmasterapp.com/" />
@@ -86,11 +111,26 @@
     <section>
       <h2>Guides</h2>
       <ul class="links">
+        <li><a href="./guides/prompt-optimizer.html">Prompt optimizer: five checks</a></li>
+        <li><a href="./guides/chatgpt-prompt-examples.html">ChatGPT prompt examples</a></li>
+        <li><a href="./guides/prompt-generator-vs-optimizer.html">Prompt generator vs optimizer</a></li>
         <li><a href="./guides/how-to-grade-a-prompt.html">How to grade a prompt</a></li>
         <li><a href="./guides/send-prompt-to-chatgpt.html">Send a prompt to ChatGPT, Claude, or Gemini</a></li>
         <li><a href="./guides/prompt-library-vs-grader.html">Prompt library vs grader</a></li>
         <li><a href="./guides/what-you-get-free.html">What is free</a></li>
       </ul>
+    </section>
+
+    <section>
+      <h2>Questions</h2>
+      <h3>What is PromptMaster?</h3>
+      <p>An Android prompt optimizer and grader. Paste a prompt you wrote, get a score and what is missing, and with Pro an improved version to send to ChatGPT, Claude, or Gemini.</p>
+      <h3>Is it free?</h3>
+      <p>Free to install. The first five grades are free, with more after a short ad. Pro unlocks the rewrite, sending, unlimited grades, and no ads.</p>
+      <h3>Do I need an API key?</h3>
+      <p>No. Grading works without one. You can add your own Gemini key if you want Gemini to grade; it stays on your phone.</p>
+      <h3>Does it work with ChatGPT, Claude, and Gemini?</h3>
+      <p>Yes. ChatGPT and Claude open with the rewrite filled in. Gemini gets a copy, because it does not accept a prefilled link.</p>
     </section>
 
     <section class="cta">
