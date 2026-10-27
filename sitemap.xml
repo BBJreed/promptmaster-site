@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://promptmasterapp.com/</loc></url>
-  <url><loc>https://promptmasterapp.com/guides/</loc></url>
-  <url><loc>https://promptmasterapp.com/guides/chatgpt-prompt-examples.html</loc></url>
-  <url><loc>https://promptmasterapp.com/guides/how-to-grade-a-prompt.html</loc></url>
-  <url><loc>https://promptmasterapp.com/guides/prompt-generator-vs-optimizer.html</loc></url>
-  <url><loc>https://promptmasterapp.com/guides/prompt-library-vs-grader.html</loc></url>
-  <url><loc>https://promptmasterapp.com/guides/prompt-optimizer.html</loc></url>
-  <url><loc>https://promptmasterapp.com/guides/send-prompt-to-chatgpt.html</loc></url>
-  <url><loc>https://promptmasterapp.com/guides/what-you-get-free.html</loc></url>
+  <url><loc>https://promptmasterapp.com/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://promptmasterapp.com/about.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/ai-image-prompt-examples.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/chatgpt-prompt-examples.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/how-to-grade-a-prompt.html</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/prompt-generator-vs-optimizer.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/prompt-library-vs-grader.html</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/prompt-optimizer.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/send-prompt-to-chatgpt.html</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://promptmasterapp.com/guides/what-you-get-free.html</loc><lastmod>2026-10-26</lastmod></url>
 </urlset>

@@ -31,6 +31,8 @@ PromptMaster does not replace ChatGPT, Claude, or Gemini. It prepares the prompt
 - https://promptmasterapp.com/guides/prompt-optimizer.html
 - https://promptmasterapp.com/guides/chatgpt-prompt-examples.html
 - https://promptmasterapp.com/guides/prompt-generator-vs-optimizer.html
+- https://promptmasterapp.com/guides/ai-image-prompt-examples.html
+- https://promptmasterapp.com/about.html
 - https://promptmasterapp.com/guides/how-to-grade-a-prompt.html
 - https://promptmasterapp.com/guides/send-prompt-to-chatgpt.html
 - https://promptmasterapp.com/guides/what-you-get-free.html

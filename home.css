@@ -7,7 +7,7 @@ header.top {
 }
 header.top .brand { display: inline-flex; align-items: center; gap: 10px; font-size: 1.05rem; }
 header.top .brand img { border-radius: 8px; }
-.top-link { color: var(--muted); text-decoration: none; }
+.top-link { color: var(--muted); text-decoration: none; margin-left: 16px; }
 
 .hero {
   display: grid;
