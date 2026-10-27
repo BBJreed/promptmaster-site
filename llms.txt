@@ -1,0 +1,40 @@
+# PromptMaster
+
+> Android app that grades a prompt you wrote, names what is missing, and rewrites it. Package com.promptmaster.ai by ReedAI.
+
+PromptMaster does not replace ChatGPT, Claude, or Gemini. It prepares the prompt those apps will run.
+
+## What is free
+
+- The first five grades.
+- The score and a short explanation of the gaps (role, audience, constraints, format).
+- The prompt of the day, which can be copied or sent without a grade.
+- About 30 ready prompts with fill-in blanks, plus saved prompts and history.
+- No API key is required to see a score. A key stays on the device and is only used if you want the answer to run inside the app.
+
+## What Pro unlocks
+
+- The full rewritten prompt.
+- Copy.
+- Send to ChatGPT: opens https://chatgpt.com/ with the rewrite filled in. You still send the message.
+- Send to Claude: opens https://claude.ai/new with the rewrite filled in. You still send the message.
+- Send to Gemini: copies the rewrite and opens https://gemini.google.com/app. Gemini does not accept a prefilled link.
+- More: the Android share sheet, for Grok, Copilot, Messages, or any other app. If sharing is unavailable, the text is copied.
+- If the link would be longer than about 1,500 characters, the text is copied and the chat opens empty so you can paste.
+- Unlimited grades and no ads.
+- Google Play shows the price before you pay. The site does not name a dollar amount.
+
+## Pages
+
+- https://promptmasterapp.com/
+- https://promptmasterapp.com/guides/
+- https://promptmasterapp.com/guides/how-to-grade-a-prompt.html
+- https://promptmasterapp.com/guides/send-prompt-to-chatgpt.html
+- https://promptmasterapp.com/guides/what-you-get-free.html
+- https://promptmasterapp.com/guides/prompt-library-vs-grader.html
+
+## What this app does not do
+
+- It does not run an on-device model.
+- It does not claim a star rating or a review count on the site.
+- It is not the other Android apps that also use the name PromptMaster.
